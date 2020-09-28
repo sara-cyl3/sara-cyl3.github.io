@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.container-header{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
