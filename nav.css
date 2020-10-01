@@ -2,9 +2,18 @@ nav{
     position: fixed;
     z-index: 1;
     overflow: hidden;
-    bottom:-250px;
+    bottom:-400px;
 }
 nav  img{
     width:100%;
     opacity: 0.8;
+}
+
+/* For smaller screen */
+@media only screen and (max-width: 768px)
+nav{
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    bottom:-100px;
 }
