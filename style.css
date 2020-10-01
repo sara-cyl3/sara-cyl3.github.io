@@ -2,8 +2,55 @@
     margin: 0;
     padding:0;
 }
+body{
+    background-image: url(Pelicans.JPG);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 .container-header{
-    width: 80%;
+    width: 100%;
     margin: auto;
+    font-size: 3em;
     text-align: center;
+    padding: 30px;
+}
+.container-top{
+    margin:auto;
+    width:70%;
+    display: flex;
+    justify-content: space-around;
+}
+.container-about{
+    margin: 20px;
+    border: 2px dotted #5e6c75;
+    background-color: #dcded585;
+}
+.about-heading{
+    text-align: center;
+    font-size: 3em;
+    width: 100%;
+    margin-top: 10px;
+}
+.about-content{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-txt{
+    padding: 10px;
+}
+p{
+    font-size: 1em;
+}
+.about-img img{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+.column{
+    float: right;
+}
+.clr{
+    clear: both;
 }
