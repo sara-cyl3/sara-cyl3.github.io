@@ -26,7 +26,7 @@ main{
     text-align: center;
     padding: 90px 30px 30px 30px;
 }
-.container-top{
+.container{
     margin:auto;
     width:80%;
     display: flex;
@@ -68,11 +68,11 @@ main{
 .clr{
     clear: both;
 }
-.container-midt{
+.container{
     margin:auto;
     width:80%;
 }
-.container-exp{
+.content{
     margin: 30px;
     border: 4px inset #5e6c7580;
     border-radius: 10px;
@@ -82,11 +82,7 @@ main{
     margin: 10px;
     padding: 10px;
 }
-.container-midb{
-    margin:auto;
-    width:80%;
-}
-.container-prj{
+.content{
     margin: 30px;
     border: 4px inset #5e6c7580;
     border-radius: 10px;
