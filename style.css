@@ -7,36 +7,40 @@
     box-sizing: border-box;
     font-family: hobo-std, sans-serif;
     font-weight: 600;
-    color: #444482;
+    color: #031990;
 }
 body{
-    background: url(Pelicans.JPG) no-repeat center center fixed;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-    background-size: cover;
-}
+    background: #a1a29d85;
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,25,144,0.8) 15%, rgba(145,189,241,0.6) 50%, rgba(3,25,144,0.8) 85%, rgba(2,0,36,1) 100%); */
+}    
 main{
     margin-bottom: 200px;
 }
+/* Name Section */
 .container-header{
+    background: url(Pelicans.JPG) no-repeat center center;
+    background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
     width: 100%;
     margin: auto;
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
-    padding: 90px 30px 30px 30px;
+    padding: 80px 30px 200px 30px;
 }
+.container-header h3{
+    color: #98e3ff;
+}
+/* Section containers */
 .container{
     margin:auto;
     width:80%;
-    display: flex;
-    justify-content: space-around;
 }
-.container-about{
+.content{
     margin: 30px;
-    border: 3px inset #5e6c7580;
     border-radius: 5px;
-    background-color: #dcded585;
+    background-color: #c3e4f7;
 }
 .content-heading{
     text-align: center;
@@ -44,6 +48,7 @@ main{
     width: 100%;
     margin-top: 25px;
 }
+/* About me Section */
 .about-content{
     margin: 10px;
     padding: 10px;
@@ -53,41 +58,41 @@ main{
 .about-txt{
     padding-right: 20px;
 }
-/* p{
-    font-size: 1em;
-} */
 .about-img img{
     display: flex;
     justify-content: space-around;
     width: 250px;
 }
-.column{
+/* Skills Section */
+.skill-txt{
     display: flex;
-    flex-flow: column;
+    justify-content: space-evenly;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+.column h2{
+    text-align: center;
+    white-space: nowrap;
+}
+li{
+    list-style-position: inside;
+    padding: 0px 15px;
+}
+ul{
+    width:70%;
 }
 .clr{
     clear: both;
 }
-.container{
-    margin:auto;
-    width:80%;
-}
-.content{
-    margin: 30px;
-    border: 4px inset #5e6c7580;
-    border-radius: 10px;
-    background-color: #dcded585;
-}
+/* Experience Section */
 .exp-content{
     margin: 10px;
     padding: 10px;
 }
-.content{
-    margin: 30px;
-    border: 4px inset #5e6c7580;
-    border-radius: 10px;
-    background-color: #dcded585;
-}
+/* Project Section */
 .prj-content{
     margin: 10px;
     padding: 10px;

@@ -12,9 +12,10 @@ nav  img{
 /* For smaller screen */
 @media only screen and (max-width: 768px){
     nav{
-    position: fixed;
-    z-index: 1;
-    overflow: hidden;
-    bottom:-100px;
-}
+        position: fixed;
+        z-index: 1;
+        overflow: hidden;
+        bottom:-100px;
+    }
+
 }
