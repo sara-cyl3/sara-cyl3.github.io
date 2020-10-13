@@ -2,7 +2,7 @@ nav{
     position: fixed;
     z-index: 1;
     overflow: hidden;
-    bottom:-400px;
+    bottom:-200px;
 }
 nav  img{
     width:100%;
