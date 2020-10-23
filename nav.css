@@ -1,21 +1,36 @@
-nav{
-    position: fixed;
+.nav{
+    width: 100%;
+    position: absolute;
     z-index: 1;
-    overflow: hidden;
-    bottom:-200px;
+    bottom: -240px;
+    left: -20px;
 }
-nav  img{
-    width:100%;
-    opacity: 0.8;
+.nav img{
+    width:105%;
 }
 
 /* For smaller screen */
 @media only screen and (max-width: 768px){
     nav{
-        position: fixed;
+        /* position: fixed; */
         z-index: 1;
         overflow: hidden;
         bottom:-100px;
     }
 
+}
+#RCTop{
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    z-index: 99;
+    cursor: pointer;
+    width: 100px;
+    height: 110px;
+    border: none;
+    background-color: #cdcecb;
+}
+.rctop{
+    width: 100%;
 }
